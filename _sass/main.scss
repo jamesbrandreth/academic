@@ -12,3 +12,14 @@ body {
 body a {
   color: $linkColor
 }
+
+.minilink {
+  color: white !important;
+  background-color: black;
+  border-color: black;
+  border: 1px;
+  border-radius: 3px;
+  padding: 3px;
+  text-transform: uppercase;
+}
+

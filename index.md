@@ -1,8 +1,10 @@
 ---
 layout: home
-title: "Home"
+title: "James Brandreth"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
+I'm a research software engineer with an interest in machine learning, particularly NLP.
 
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+I currently work in UCL's [Clinical Research Informatics Unit (CRIU)](https://www.uclhospitals.brc.nihr.ac.uk/clinical-research-informatics-unit) working on natural language processing techniques and software for use with electronic health records.
+
+I previously worked on [Project Odysseus](https://www.turing.ac.uk/research/research-projects/project-odysseus-understanding-london-busyness-and-exiting-lockdown) at the Warwick Machine Learning Group
