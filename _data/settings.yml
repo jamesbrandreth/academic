@@ -1,9 +1,0 @@
-menu:
-- {name: 'publications', url: '/publications'}
-- {name: 'cv', url: '/cv'}
-
-social:
-- {icon: 'github', link: 'https://github.com/jamesbrandreth'}
-- {icon: 'twitter', link: 'https://twitter.com/jamesbrandreth'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/jamesbrandreth'}
-
