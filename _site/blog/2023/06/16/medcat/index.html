@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-19T19:55:49+01:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Understanding MedCAT</title><link href="http://localhost:4000/blog/2023/06/16/medcat/" rel="alternate" type="text/html" title="Understanding MedCAT" /><published>2023-06-16T00:00:00+01:00</published><updated>2023-06-16T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/06/16/medcat</id><content type="html" xml:base="http://localhost:4000/blog/2023/06/16/medcat/"><![CDATA[<p>MedCAT <a class="citation" href="#Kraljevic2021-ln">(Kraljevic et al., 2021)</a> is a popular tool for recognising clinical terms in text, and linking to the respective concept from an ontology like SNOMED-CT, ICD-10 or UMLS. It also has the facility to automatically classify concepts based on their context in text.</p>
+<html>
+<head>
+    <title>Understanding MedCAT</title>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+
+    <meta name='description' content='James Brandreth is a Research Software Engineer at UCL.'>
+    <meta name='keywords' content='NLP, Clinial, MedCAT, CogStack'>
+    <meta name='author' content='James Brandreth'>
+
+    <link href='/css/blog.css' rel='stylesheet'/>
+    <link href='/css/trac.css' rel='stylesheet'/>
+    <link href='/css/markdown.css' rel='stylesheet'/>
+
+    <script type='text/x-mathjax-config'>
+MathJax.Hub.Config({
+  jax: ['input/TeX', 'output/HTML-CSS'],
+  tex2jax: {
+    inlineMath: [ ['$', '$'] ],
+    displayMath: [ ['$$', '$$']],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+    extensions: ['color.js']
+  },
+  messageStyle: 'none',
+  'HTML-CSS': { preferredFont: 'TeX', availableFonts: ['STIX','TeX'] }
+});
+</script>
+
+<script src='//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML' type='text/javascript'></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+</head>
+<body>
+<div class='content'>
+    <div class='nav'>
+    <ul class='wrap'>
+        <li><a href='/'>Home</a></li>
+        <li><a href='/blog'>Blog</a></li>
+    </ul>
+</div>
+    <div class='front-matter'>
+        <div class='wrap'>
+            <h1>Understanding MedCAT</h1>
+            <h4>A simple overview of how MedCAT works internally.</h4>
+            <div class='bylines'>
+                <div class='byline'>
+                    <h3>Published</h3>
+                    <p>16 June 2023</p>
+                </div>
+            </div>
+            <div class='clear'></div>
+        </div>
+    </div>
+    <div class='wrap article'>
+        <p>MedCAT <a class="citation" href="#Kraljevic2021-ln">(Kraljevic et al., 2021)</a> is a popular tool for recognising clinical terms in text, and linking to the respective concept from an ontology like SNOMED-CT, ICD-10 or UMLS. It also has the facility to automatically classify concepts based on their context in text.</p>
 
 <p>MedCAT is available on GitHub: <a href="https://github.com/CogStack/MedCAT">github.com/CogStack/MedCAT</a>, and the MedCAT paper here: <a href="https://arxiv.org/abs/2010.01165">Multi-domain Clinical Natural Language Processing with MedCAT: the Medical Concept Annotation Toolkit</a>.</p>
 
@@ -187,8 +241,14 @@
 <span class="n">cat</span><span class="p">.</span><span class="n">train</span><span class="p">(</span><span class="n">data_iterator</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>Once you’ve done this you have a complete MedCAT model!</p>]]></content><author><name></name></author><summary type="html"><![CDATA[MedCAT (Kraljevic et al., 2021) is a popular tool for recognising clinical terms in text, and linking to the respective concept from an ontology like SNOMED-CT, ICD-10 or UMLS. It also has the facility to automatically classify concepts based on their context in text.]]></summary></entry><entry><title type="html">This Blog</title><link href="http://localhost:4000/blog/2023/05/23/blog/" rel="alternate" type="text/html" title="This Blog" /><published>2023-05-23T00:00:00+01:00</published><updated>2023-05-23T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/05/23/blog</id><content type="html" xml:base="http://localhost:4000/blog/2023/05/23/blog/"><![CDATA[<p>I’ve been trying to understand machine learning in more deeply. I need a solid understanding of the innards so I can confidently work on playing with and designing models.</p>
+<p>Once you’ve done this you have a complete MedCAT model!</p>
 
-<p>I am following the example (and have copied the site) of Gregory Gundersen. See: <a href="https://gregorygundersen.com/blog/2020/01/12/why-research-blog/">Why I Keep a Research Blog</a> and <a href="https://gregorygundersen.com/blog/2020/06/21/blog-theme/">How I Built This Blog</a>.</p>
-
-<p>TL;DR: Having to explain something is a good way of learning things, and the idea that someone <em>might</em> read it encourages accuracy.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[I’ve been trying to understand machine learning in more deeply. I need a solid understanding of the innards so I can confidently work on playing with and designing models.]]></summary></entry></feed>
+    </div>
+    <div id='bibliography'>
+        <div class='wrap'>
+            <ol class="bibliography"><li><span id="Kraljevic2021-ln">Kraljevic, Z., Searle, T., Shek, A., Roguski, L., Noor, K., Bean, D., Mascio, A., Zhu, L., Folarin, A. A., Roberts, A., Bendayan, R., Richardson, M. P., Stewart, R., Shah, A. D., Wong, W. K., Ibrahim, Z., Teo, J. T., &amp; Dobson, R. J. B. (2021). Multi-domain clinical natural language processing with MedCAT: The Medical Concept Annotation Toolkit. <i>Artif. Intell. Med.</i>, <i>117</i>, 102083. https://doi.org/10.1016/j.artmed.2021.102083</span></li></ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
